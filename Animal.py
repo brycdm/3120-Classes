@@ -46,6 +46,7 @@ class Animal:
     def age(self):
         print(f"I am {self.__age} years old")
 
+#keep self, name, food & change the rest
     def __init__(self, name, eye, food, speed=5, favorite_animal=""):
         self._name = name
         self._eye_color = eye
@@ -53,7 +54,7 @@ class Animal:
         self._speed = speed
         self._favorite_animal = favorite_animal
         print(f"Hello, I am {self._name}")
-
+#add what kind of animal
     def talk(self):
         print("Hi there! I am an animal")
 
